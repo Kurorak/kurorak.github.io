@@ -1,0 +1,39 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:            pretty
+relative_permalinks:  true
+
+# Dependencies
+markdown:             kramdown
+highlighter:          pygments
+
+# Setup
+title:                Kurorak
+tagline:              I make things.
+url:                  https://kurorak.xyz
+baseurl:              ""
+exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:           _scss
+  style:              :compressed
+
+# List of time zones supported in the TZ database
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:             Asia/Jakarta
+
+# About/contact
+author:
+  name:               Kurorak
+  url:                https://twitter.com/Kurorak
+  email:              kurorak@outlook.com
+
+# Collections
+collections:
+  stuff:
+    output:           true
+    permalink:        /:path/

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    {% include html/masthead.html %}
+
+    <div class="container content">
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>
