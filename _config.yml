@@ -10,7 +10,7 @@ highlighter:          pygments
 
 # Setup
 title:                Kurorak
-tagline:              I make things.
+tagline:              "[inspiring tagline here]"
 url:                  https://kurorak.xyz
 baseurl:              ""
 exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
