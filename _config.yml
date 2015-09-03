@@ -11,7 +11,7 @@ highlighter:          pygments
 # Setup
 title:                Kurorak
 tagline:              "[inspiring tagline here]"
-url:                  https://kurorak.xyz
+url:                  http://kurorak.xyz
 baseurl:              ""
 exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
 
