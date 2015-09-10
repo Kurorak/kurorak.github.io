@@ -26,6 +26,13 @@ sass:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:             Asia/Jakarta
 
+# Navigational menus
+nav:
+  - title: about
+    url: /about
+  - title: music
+    url: /music
+
 # About/contact
 author:
   name:               Kurorak
