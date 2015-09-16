@@ -10,6 +10,10 @@
 
 scss_files:  '_scss/**/*.scss'
 
+exclude:
+  - '_scss/poole/*.scss'
+  - '_scss/components/_third-party.scss'
+
 linters:
   BangFormat:
     enabled: true
