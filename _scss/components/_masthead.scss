@@ -23,6 +23,11 @@
     font-size: 1.5rem;
     font-weight: 500;
 
+    img {
+      max-height: 2.5rem;
+      margin: 0;
+    }
+
     @media (min-width: 34em) {
       float: left;
     }
