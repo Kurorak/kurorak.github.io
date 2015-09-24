@@ -1,0 +1,99 @@
+// Home
+//
+// Styles specific to the homepage.
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $text-color-primary;
+  background-color: $background-color-primary;
+
+  .home-content {
+    margin: 2rem 0;
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  @media (max-width: $grid-breakpoint) {
+    .column + .column {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.home-logo {
+  // Helper class for centering image inside the `.home-logo` class
+  // Solution: http://jsfiddle.net/kizu/4RPFa/4570/
+  .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  img {
+    vertical-align: middle;
+    border-radius: 50%;
+
+    @media (max-width: $grid-breakpoint) {
+      max-width: 10rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.home-logotype {
+  img {
+    max-height: 4rem;
+    margin-bottom: 0;
+
+    @media (max-width: $grid-breakpoint) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.home-main {
+  @media (min-width: $grid-breakpoint) {
+    border-left: 1px solid $text-color-muted;
+  }
+}
+
+.home-nav {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+
+  a {
+    color: inherit;
+
+    + a {
+      padding-left: calc(1.25rem / 2);
+    }
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: $grid-breakpoint) {
+    text-align: center;
+  }
+}
+
+.home-social-links {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  //font-size: 1.25rem;
+  font-weight: 300;
+
+  a + a {
+    padding-left: .5rem;
+  }
+}

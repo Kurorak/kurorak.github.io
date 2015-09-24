@@ -1,0 +1,62 @@
+// Base resets
+//
+// Useful resets for Poole.
+
+// Fix allowing full canvas pages be displayed on the homepage.
+html,
+body {
+  height: 100%;
+}
+
+// Grid system
+//
+// Create rows with `.row` to clear the floated columns and outdent the
+// padding on `.column`s with negative margin for alignment.
+
+.row {
+  @include clearfix;
+  margin-left: -$grid-gutter;
+  margin-right: -$grid-gutter;
+}
+
+.column {
+  float: left;
+  padding-left: $grid-gutter;
+  padding-right: $grid-gutter;
+
+  @media (max-width: $grid-breakpoint) {
+    float: none;
+    width: 100%;
+  }
+}
+
+// Column widths
+@media (min-width: $grid-breakpoint) {
+  .one-third {
+    width: 33.333333%;
+  }
+
+  .two-thirds {
+    width: 66.666667%;
+  }
+
+  .one-fourth {
+    width: 25%;
+  }
+
+  .one-half {
+    width: 50%;
+  }
+
+  .three-fourths {
+    width: 75%;
+  }
+
+  .one-fifth {
+    width: 20%;
+  }
+
+  .four-fifths {
+    width: 80%;
+  }
+}
