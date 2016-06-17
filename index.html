@@ -5,34 +5,33 @@ title: Home
 
 <div class="home-content">
   <div class="container">
-    <div class="row">
-      <div class="column one-fourth home-logo">
-        <span class="helper"></span>
+    <div class="home-logo">
+      <span class="helper">
         <img src="{{ site.baseurl }}/public/img/logocirclebwhite.png" alt="{{ site.title }}">
+      </span>
+    </div>
+    <div class="home-main">
+      <div class="home-logotype">
+        <img src="{{ site.baseurl }}/public/img/logotext.png" alt="">
       </div>
-      <div class="column three-fourths home-main">
-        <div class="home-logotype">
-          <img src="{{ site.baseurl }}/public/img/logotext.png" alt="">
-        </div>
 
-        <nav class="home-nav">
-          {% for link in site.nav %}
-            {% if link.title %}
-            {% assign current = '' %}
-            {% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
-            <a class="{{ current }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
-            {% endif %}
-          {% endfor %}
-        </nav>
+      <nav class="home-nav">
+        {% for link in site.nav %}
+          {% if link.title %}
+          {% assign current = '' %}
+          {% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
+          <a class="{{ current }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
 
-        <p>
-          Hello there! I'm Kurorak, and I make dumb music stuff, free for download.
-        </p>
+      <p>
+        Hello there! I'm Kurorak, and I make music stuff, free for download.
+      </p>
 
-        <div class="home-social-links">
-          <a href="{{ site.author.links.twitter }}">twitter</a>
-          <a href="{{ site.author.links.bandcamp }}">bandcamp</a>
-        </div>
+      <div class="home-social-links">
+        <a href="{{ site.author.links.twitter }}">twitter</a>
+        <a href="{{ site.author.links.bandcamp }}">bandcamp</a>
       </div>
     </div>
   </div>

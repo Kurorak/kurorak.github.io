@@ -8,7 +8,7 @@ highlighter:          pygments
 # Setup
 title:                Kurorak
 tagline:              "[inspiring tagline here]"
-description:          "Hello there! I'm Kurorak, and I make dumb music stuff, free for download."
+description:          "Hello there! I'm Kurorak, and I make music stuff, free for download."
 url:                  http://kurorak.xyz
 baseurl:              ""
 exclude:              ["Makefile", "Gruntfile.js", "Gemfile", "README.md", "LICENSE", "node_modules", "package.json"]
