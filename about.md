@@ -9,6 +9,6 @@ Except for remixes and a select few, my works are under CC-BY 4.0 license:
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
 
-You can contact me on [Twitter](https://www.twitter.com/Kurorak), Telegram (@kuror), or e-mail me at kurorak@outlook.com.
+You can contact me on [Twitter](https://www.twitter.com/Kurorak), Telegram (@kuror), or e-mail me at kurorak@gmail.com.
 
 Hope to see you soon!
