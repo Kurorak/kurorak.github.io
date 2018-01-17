@@ -5,42 +5,8 @@ title: Home
 
 <div class="home-content">
   <div class="container">
-    <div class="home-logo">
-      <span class="helper">
-        <img src="{{ site.baseurl }}/public/img/logocirclebwhite.png" alt="{{ site.title }}">
-      </span>
-    </div>
     <div class="home-main">
-      <div class="home-logotype">
-        <img src="{{ site.baseurl }}/public/img/logotext.png" alt="">
-      </div>
-
-      <nav class="home-nav">
-        {% for link in site.nav %}
-          {% if link.title %}
-          {% assign current = '' %}
-          {% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
-          <a class="{{ current }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </nav>
-
-      <p>
-        Hello there! I'm Kurorak, and I make music stuff, free for download.
-      </p>
-      <p>
-        You can contact me on Twitter, Telegram (@kuror), or e-mail me at kurorak@gmail.com.
-      </p>
-      <p>
-        Hope to see you soon!
-      </p>
-
-      <div class="home-social-links">
-        <a href="{{ site.author.links.twitter }}">twitter</a>
-        <a href="{{ site.author.links.bandcamp }}">bandcamp</a>
-        <a href="{{ site.author.links.patreon }}">patreon</a>
-        <a href="{{ site.author.links.orfium }}">orfium</a>
-      </div>
+   <img src="https://i.imgur.com/EL28qZu.jpg" alt="Be back soon!">
     </div>
   </div>
 </div>
